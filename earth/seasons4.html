@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>Seasons 4: Investigating Earth's tilt and hours of daylight</title>
+    <title>Jahreszeiten 4: Den Neigungswinkel der Erdachse und Tageslichtstunden erkunden</title>
     <link href="../stylesheets/style.css" rel="stylesheet" type="text/css"/>
     <link href="../stylesheets/rangeinput.css" rel="stylesheet" type="text/css" />
     <link href="../stylesheets/table.css" rel="stylesheet" type="text/css" />
@@ -76,7 +76,7 @@
 </head>
 <div id="container">
   <div id="header-inner">
-    <h1 id="title">Seasons 4: Investigating Earth's tilt and hours of daylight</h1>
+    <h1 id="title">Jahreszeiten 4: Den Neigungswinkel der Erdachse und Tageslichtstunden erkunden</h1>
   </div>
   <div id="content">
     <div id="webglCanvasContainer">
@@ -96,7 +96,7 @@
           <fieldset>
             <legend>Controls</legend>
             <label><input id="earth-rotation" type="checkbox"/> Rotation</label><br />
-            <label><input id="surface-view" type="checkbox"/> Surface View</label><br />
+            <label><input id="surface-view" type="checkbox"/> Oberflächenansicht</label><br />
           </fieldset>
           <br />
           <fieldset>
@@ -118,26 +118,26 @@
           <br />
           <form id="select-city">
             <fieldset>
-              <legend>Select city</legend>
-              <select id="selected-city" name="selected-city">City
-                <option disabled selected>city ...</option>
+              <legend>Wähle die Stadt</legend>
+              <select id="selected-city" name="selected-city">Stadt
+                <option disabled selected>Stadt ...</option>
               </select>
             </fieldset>
           </form>
           <form id="choose-month">
             <fieldset>
-              <legend>Month</legend>
-              <label><input type="radio" name="month" value="jun" checked> Jun</input></label>
+              <legend>Monat</legend>
+              <label><input type="radio" name="month" value="jun" checked> Juni</input></label>
               <label><input type="radio" name="month" value="sep"> Sep</input></label><br />
-              <label><input type="radio" name="month" value="dec"> Dec</input></label>
-              <label><input type="radio" name="month" value="mar"> Mar</input></label>
+              <label><input type="radio" name="month" value="dec"> Dez</input></label>
+              <label><input type="radio" name="month" value="mar"> März</input></label>
             </fieldset>
           </form>
           <form id="choose-tilt">
             <fieldset>
-              <legend>Tilt of Earth</legend>
-              <label><input type="radio" name="tilt" value="yes" checked> Yes</input></label>
-              <label><input type="radio" name="tilt" value="no"> No</input></label>
+              <legend>Neigungswinkel der Erdachse</legend>
+              <label><input type="radio" name="tilt" value="yes" checked> Ja</input></label>
+              <label><input type="radio" name="tilt" value="no"> Nein</input></label>
             </fieldset>          
           </form>
         </form>
@@ -146,9 +146,9 @@
         <div id="experiment-checkbox"><label ><b>Experiment Panel</b><input id="experiment-view" type="checkbox"/></label></div>
         <div id="experiment-content">
           <br />
-          First select a city and date ... then predict the number
+         Wähle zuerst die Stadt und ein Datum aus ... sage dann die Anzahl der Tageslichtstunden vorher
           <form id="daylight-hours-prediction">
-            <label id="daylight-hours-prediction-label" for="daylight-hours-prediction">of daylight hours:</label>
+            <label id="daylight-hours-prediction-label" for="daylight-hours-prediction">Tageslichtstunden:</label>
             <input type="text" id="daylight-hours-prediction" name="daylight-hours-prediction" />
             <input type="submit" value="Check" />
           </form>
@@ -157,20 +157,20 @@
             <thead>
               <tr>
                 <th class='sortfirstasc text'>City</th>
-                <th class='text'>Month</th>
-                <th class='number'>Daylight Hours</th>
-                <th class='number'>Prediction</th>
-                <th class="nosort">Season ?</th>
-                <th class="nosort">Graph</th>
+                <th class='text'>Monat</th>
+                <th class='number'>Tageslichtstunden</th>
+                <th class='number'>Vorhersage</th>
+                <th class="nosort">Jahreszeit ?</th>
+                <th class="nosort">Diagramm</th>
             </thead>
             <tbody id="city-data-table-body">
               <tr>
                 <td class='sortfirstasc text'>San Francisco</td>
-                <td class='text'>June</td>
+                <td class='text'>Juni</td>
                 <td class='number'>13.3</td>
                 <td class='number'>12</td>
-                <td class="nosort">Fall</td>
-                <td class="nosort">Graph</td>
+                <td class="nosort">Herbst</td>
+                <td class="nosort">Diagramm</td>
               </tr>
             </tbody>
           </table>
