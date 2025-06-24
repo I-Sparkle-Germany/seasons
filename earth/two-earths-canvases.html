@@ -2,30 +2,30 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <title>Two Views of Earth</title>
+  <title>Zwei Ansichten der Erde</title>
   <link href="../stylesheets/style.css" rel="stylesheet" type="text/css"/>
   <link href="../stylesheets/video-js.css" rel="stylesheet" type="text/css"/>
   <script type="text/javascript" src="../lib/scenejs-0.8.0/scenejs.js"></script>
 </head>
 <div id="container">
   <div id="header-inner">
-    <h1 id="title"><a href="http://scenejs.org">SceneJS</a> : Earth</h1>
+    <h1 id="title"><a href="http://scenejs.org">SceneJS</a> : Erde</h1>
     <div id="simulation-controls"> 
       <ul class="horiz">
         <li>
-          <label for="time_of_year">Time of year:</label> 
+          <label for="time_of_year">Jahreszeit:</label> 
           <select id="time_of_year" name="time_of_year">
-            <option value="jun" selected="true">June 21</option>
-            <option value="sep">September 21</option>
-            <option value="dec">December 21</option>
-            <option value="mar">March 21</option>
+            <option value="jun" selected="true">21. Juni</option>
+            <option value="sep">21. September</option>
+            <option value="dec">21 Dezember</option>
+            <option value="mar">M21 März</option>
           </select>
         </li>
         <li>
-          <label for="earth_surface">Earth Surface:</label>
+          <label for="earth_surface">Erdoberfläche:</label>
           <select id="earth_surface" name="earth_surface">
             <option value="terrain">Terrain</option>
-            <option value="temperature">Mean Monthly Temperature</option>
+            <option value="temperature">Durchschnittliche Monatstemperatur</option>
           </select>
         </li>
         <li id="temperature-color-map">
@@ -56,11 +56,11 @@
     <div id="info">
       <h2>Earth</h2>
       <p>
-        The visualization starts with the Earth in it's June 21 orbital orientation ... summer in the northern hemisphere. 
-        There are two views, the first is Earth from the side along the path of the orbit. 
-        The second view is from the north with respect to the Earth's orbital plane.
-        You can drag in the first view to rotate your view around Earth. 
-        You can select four different times of year and display either a terrain map or a map of monthly mean temperatures.
+        Die Visualisierung beginnt mit der Erde in ihrer Umlaufbahnposition vom 21. Juni – also dem Sommer auf der Nordhalbkugel.
+        Es gibt zwei Ansichten: Die erste zeigt die Erde von der Seite, entlang der Umlaufbahn.
+        Die zweite zeigt die Erde von oben, also aus nördlicher Perspektive bezogen auf die Ebene der Erdumlaufbahn.
+        In der ersten Ansicht kannst du die Ansicht um die Erde herum drehen, indem du mit der Maus ziehst.
+        Du kannst vier verschiedene Jahreszeiten auswählen und entweder eine Geländekarte oder eine Karte der monatlichen Durchschnittstemperaturen anzeigen.
       </p>
       <h2>Getting a WebGL-enabled browser</h2>
       <div id="getting-webgl">
