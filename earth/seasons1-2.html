@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>Investigate: Temperature Patterns Around the World</title>
+    <title>Erkunde: Temperaturen rund um die Welt</title>
     <link href="../stylesheets/style.css"        rel="stylesheet" type="text/css"/>
     <link href="../stylesheets/video-js.css"     rel="stylesheet" type="text/css"/>
 		<link href="../stylesheets/flotr.css" rel="stylesheet" type="text/css" />
@@ -28,7 +28,7 @@
 </head>
 <div id="container">
   <div id="header-inner">
-    <h1 id="title">Investigate: Temperature Patterns Around the World</h1>
+    <h1 id="title">Erkunde: Temperaturen rund um die Welt</h1>
     <div id="simulation-controls"></div>
   </div>
   <div id="content">
@@ -36,7 +36,7 @@
       <ul class="hlist">
         <li>
           <div class="glCanvasQuarterFrame">
-            <h3 class="label">View: Earth from Spaceship</h3>
+            <h3 class="label">Ansicht: Erde vom Raumschiff</h3>
 
             <canvas id="theCanvas3">
             </canvas>
@@ -44,7 +44,7 @@
         </li>
         <li>
           <div class="glCanvasQuarterFrame">
-            <h3 class="label">View: Sun-Earth System</h3>
+            <h3 class="label">Ansicht: Sonne-Erde System</h3>
             <canvas id="theCanvas1">
             </canvas>
             <div class="underCanvasUI">
@@ -59,17 +59,17 @@
               <li style="display:none;">
                 <form id="choose-view">
                   <fieldset>
-                    <legend>Select view: </legend>
-                    <label><input type="radio" name="view" value="top"> Top</input></label>
-                    <label><input type="radio" name="view" value="side" checked> Side</input></label>
+                    <legend>Wähle die Ansicht aus: </legend>
+                    <label><input type="radio" name="view" value="top"> Von oben</input></label>
+                    <label><input type="radio" name="view" value="side" checked> Seitlich</input></label>
                   </fieldset>
                 </form>
               </li>
               <li>
                 <form id="show-me">
                   <fieldset>
-                    <legend>Show me: </legend>
-                    <label style="display:none;"><input id="orbital-grid" type="checkbox"/ checked> Grid: </label>
+                    <legend>Zeig mir: </legend>
+                    <label style="display:none;"><input id="orbital-grid" type="checkbox"/ checked> Raster: </label>
                     <label><input id="earth-rotation" type="checkbox"/> Rotation</label>
                   </fieldset>
                 </form>
@@ -78,28 +78,28 @@
             <div id="results">
               <p>
                 <form>
-                  <label for="choose-month">Choose month:</label>
+                  <label for="choose-month">Wähle den Monat:</label>
                   <select id="choose-month" name="chosen-month">
-                    <option value="jan">January</option>
-                    <option value="feb">February</option>
-                    <option value="mar">March</option>
+                    <option value="jan">Januar</option>
+                    <option value="feb">Februar</option>
+                    <option value="mar">Märch</option>
                     <option value="apr">April</option>
-                    <option value="may">May</option>
-                    <option value="jun" selected>June</option>
-                    <option value="jul">July</option>
+                    <option value="may">Mai</option>
+                    <option value="jun" selected>Juni</option>
+                    <option value="jul">Juli</option>
                     <option value="aug">August</option>
                     <option value="sep">September</option>
-                    <option value="oct">October</option>
+                    <option value="oct">Oktober</option>
                     <option value="nov">November</option>
-                    <option value="dec">December</option>
+                    <option value="dec">Dezember</option>
                   </select>
                 </form>
               </p>
               <p>
                 <form id="select-city-latitude">
-                  <label for="selected-city-latitude">Choose city:</label>
+                  <label for="selected-city-latitude">Wähle die Stadt:</label>
                   <select id="selected-city-latitude" name="selected-city-latitude">
-                    <option disabled selected>city ...</option>
+                    <option disabled selected>Stadt ...</option>
                   </select>
                 </form>
               </p>
@@ -110,18 +110,18 @@
                   <input type="submit" value="Collect Data" />
                 </form>
               </p>
-              <p><span class="tip">TIP #1:</span> You can sort the data in the table by clicking on the column name.</p>
+              <p><span class="tip">Hinweis #1:</span> Du kannst die Daten in der Tabelle sortieren indem du auf die Spalte klickst.</p>
             </div>
             <div class="tableFrame">
               <table id='city-data-table' class='sortable'>
                 <thead>
                   <tr>
                     <th class='sortfirstdesc number'></th>
-                    <th class='text'>City</th>
-                    <th class='text'>Month</th>
+                    <th class='text'>Stadt</th>
+                    <th class='text'>Monat</th>
                     <th class='number'>Temp</th>
-                    <th class='number'>Prediction</th>
-                    <th class="nosort">Graph</th>
+                    <th class='number'>Vorhersage</th>
+                    <th class="nosort">Diagramm</th>
                 </thead>
                 <tbody id="city-data-table-body">
                 </tbody>
