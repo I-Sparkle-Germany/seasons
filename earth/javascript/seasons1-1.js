@@ -743,7 +743,7 @@ function experimentDataFromJSON(exp_table) {
 
 var distance_data_to_plot = [];
 distance_data_to_plot.push({
-  "label": "Distance",
+  "label": "Entfernung",
   "color": "#0000ff",
   "lines": {
     "show": false
@@ -783,7 +783,7 @@ function plotEarthDistanceGraph() {
         xaxis:{
           labelsAngle: 60,
           ticks: distance_x_axis_tics,
-          title: 'Month',
+          title: 'Monat',
           noTics: distance_x_axis_tics.length,
           min: 0, max: distance_x_axis_tics.length - 1
         },
