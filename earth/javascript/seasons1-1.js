@@ -788,11 +788,11 @@ function plotEarthDistanceGraph() {
           min: 0, max: distance_x_axis_tics.length - 1
         },
         yaxis: {
-          title: 'Distance (millions of km)',
+          title: 'Entfernung (AU)',
           min: 140,
           max: 160
         },
-        title: "Distance from Sun to Earth by Month",
+        title: "Entfernung zwischen Sonne und Erde pro Monat",
         grid:{ verticalLines: true, backgroundColor: 'white' },
         HtmlText: false,
         legend: false,
