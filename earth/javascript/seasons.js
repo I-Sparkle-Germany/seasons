@@ -168,18 +168,18 @@ seasons.Scene = function(options) {
     // Some useful variables
 
     this.month_data = {
-        "jan": { index:  0, num:   1, angle: 210, short_name: 'Jan', long_name: 'January' },
-        "feb": { index:  1, num:   2, angle: 240, short_name: 'Feb', long_name: 'February' },
-        "mar": { index:  2, num:   3, angle: 270, short_name: 'Mar', long_name: 'March' },
+        "jan": { index:  0, num:   1, angle: 210, short_name: 'Jan', long_name: 'Januar' },
+        "feb": { index:  1, num:   2, angle: 240, short_name: 'Feb', long_name: 'Februar' },
+        "mar": { index:  2, num:   3, angle: 270, short_name: 'Mär', long_name: 'März' },
         "apr": { index:  3, num:   4, angle: 300, short_name: 'Apr', long_name: 'April' },
-        "may": { index:  4, num:   5, angle: 330, short_name: 'May', long_name: 'May' },
-        "jun": { index:  5, num:   6, angle:   0, short_name: 'Jun', long_name: 'June' },
-        "jul": { index:  6, num:   7, angle:  30, short_name: 'Jul', long_name: 'July' },
+        "may": { index:  4, num:   5, angle: 330, short_name: 'Mai', long_name: 'Mai' },
+        "jun": { index:  5, num:   6, angle:   0, short_name: 'Juni', long_name: 'Juni' },
+        "jul": { index:  6, num:   7, angle:  30, short_name: 'Juli', long_name: 'Juli' },
         "aug": { index:  7, num:   8, angle:  60, short_name: 'Aug', long_name: 'August' },
         "sep": { index:  8, num:   9, angle:  90, short_name: 'Sep', long_name: 'September' },
-        "oct": { index:  9, num:  10, angle: 120, short_name: 'Oct', long_name: 'October' },
-        "nov": { index: 10, num:  11, angle: 150, short_name: 'Nov', long_name: 'Novemeber' },
-        "dec": { index: 11, num:  12, angle: 180, short_name: 'Dec', long_name: 'December' }
+        "oct": { index:  9, num:  10, angle: 120, short_name: 'Okt', long_name: 'Oktober' },
+        "nov": { index: 10, num:  11, angle: 150, short_name: 'Nov', long_name: 'November' },
+        "dec": { index: 11, num:  12, angle: 180, short_name: 'Dez', long_name: 'Dezember' }
     };
 
     this.month_names = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
