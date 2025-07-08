@@ -641,7 +641,7 @@ function addExperimentData() {
 
     var the_month = scene.month;
     var month = month_data[the_month];
-    var distance_str = (scene.get_earth_distance()/1000).toPrecision(4);
+    var distance_str = (scene.get_earth_distance()/1000/149.6).toPrecision(3);
 
     var month_element_id = 'table-row-id-' + the_month;
 
@@ -789,8 +789,8 @@ function plotEarthDistanceGraph() {
         },
         yaxis: {
           title: 'Entfernung (AU)',
-          min: 140,
-          max: 160
+          min: 0,
+          max: 1.2
         },
         title: "Entfernung zwischen Sonne und Erde pro Monat",
         grid:{ verticalLines: true, backgroundColor: 'white' },
